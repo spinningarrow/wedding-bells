@@ -59,10 +59,10 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=ss3g1',
+			'connectionString' => 'mysql:host=' . getenv('DB_HOST') . ';dbname=' . getenv('DB_NAME'),
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => '',
+			'username' => getenv('DB_USER'),
+			'password' => getenv('DB_PASS'),
 			'charset' => 'utf8',
 			'enableProfiling'=>true,
             'enableParamLogging' => true,
