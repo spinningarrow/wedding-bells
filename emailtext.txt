@@ -1,0 +1,41 @@
+Dear <?php echo $name ?>
+
+Thank you for submitting your application. We are pleased to inform you that your application has been successful and you have been registered as a listed company on WeddingBells Pvt.Ltd.
+
+Best Regards
+Zahil Lihaz
+
+
+Dear <?php echo $name ?>
+
+Thank you for submitting your application. We regret to inform you that your application has been unsuccessful.
+
+Best Regards
+Zahil Lihaz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
